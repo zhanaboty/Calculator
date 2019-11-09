@@ -13,4 +13,4 @@ for(var i = 0; i < keys.length; i++) {
     var input = document.querySelector('.table');
     var inputVal = input.innerHTML;
     var btnVal = this.innerHTML;
- }
+ }  
