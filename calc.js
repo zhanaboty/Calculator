@@ -8,11 +8,13 @@ function sFact(num){
   }
   return rval;
 }
+
 for(var i = 0; i < keys.length; i++) {
   keys[i].onclick = function(e) {
     var input = document.querySelector('.table');
     var inputVal = input.innerHTML;
     var btnVal = this.innerHTML;
+<<<<<<< HEAD
 
     if(btnVal == '=') {
       var equation = inputVal;
@@ -61,3 +63,6 @@ for(var i = 0; i < keys.length; i++) {
   } 
 }
   
+=======
+ }  
+>>>>>>> 7bbc3423d7eca85d2fe89e0a094d078a3e74c4cf
